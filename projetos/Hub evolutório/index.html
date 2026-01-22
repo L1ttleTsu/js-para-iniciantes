@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hub evolutório</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Projeto de Evolução</h1>
-        <p>Um hub de projetos, uma história de evolução</p>
+        <section>
+            <article>
+                <h1>Projeto de <strong>Evolução</strong></h1>
+                <p>Um hub de projetos, uma história de evolução</p>
+            </article>
+        </section>
     </header>
     <main>
-        <section>
+        <section id="section-explicacao-introdutoria">
             <article id="explicacao-introdutoria">
                 <h1>Qual é o objetivo desse projeto?</h1>
                 <p>Eu criei esse projeto para práticar minhas habilidades em <abbr title="JavaScript">JS</abbr>. Se as funcionalidades desse site forem simples de mais, releve, vou melhorar com o tempo.</p>
@@ -27,6 +31,17 @@
             <p>Todos os dias eu vou entrar nesse projeto e colocar em prática algum conceito matemático, mesmo que eu passe dias fazendo apenas um conceito. Quero usar esse site como um portal que conecta matemática, JS e lógica.</p>
             <h2>O que você pode esperar ver aqui?</h2>
             <p>Você pode esperar acompanhar meu desenvolvemento e amadurecimento como um programador iniciante. A cada função você verá meu progresso e evolução.</p>
+        </section>
+        <section id="funcaoMatematica">
+            <h1>Função matemática</h1>
+            <h2>Você já se perguntou como uma função matemática funciona?</h2>
+            <p>Uma função matemática é um tipo de máquina que funciona a partir de três coisas: Valor de entrada, operações e valor de saida.</p>
+            <h2>Calcule o valor de uma função (valor de saida)</h2>
+            <h3>Coloque o valor de entrada</h3>
+            <input type="number" id="valorDeEntrada" placeholder="x=">
+            <h3>Quais são as operações que f(x) faz?</h3>
+            <input type="number" id="operacoes" placeholder="f(x)=">
+            <button onclick="calcularFuncao()">Calcular função</button>
         </section>
     </main>
     <footer>
