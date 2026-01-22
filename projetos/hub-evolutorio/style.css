@@ -15,7 +15,7 @@ body {
 
 /*Header e afins*/
 header {
-    background: black url("imagens/natureza-background.jpg") center center fixed;
+    background: black url("imagens/forja-background.jpg") center bottom fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -30,7 +30,7 @@ header h1 {
 }
 
 header strong {
-    color: #AB201F;
+    color: #F5860F;
 }
 
 header p {
@@ -66,7 +66,7 @@ main h1 {
 
 #section-explicacao-introdutoria {
     position: relative;
-    background: black url("imagens/montanha-background.jpg") center center fixed;
+    background: black url("imagens/oceano-background.jpg") center center fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -78,15 +78,18 @@ main h1 {
     transform: translate(10%, -50%);
     width: 60vw;
     max-width: 700px;
+    background-color: rgba(15, 45, 44, 0.5);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 #explicacao-introdutoria h1 {
-    color: #22737A;
+    color: #90ADAC;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 #explicacao-introdutoria h2 {
-    color: #7FC9CF;
+    color: #ADD8D6;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
