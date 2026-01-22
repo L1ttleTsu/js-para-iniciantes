@@ -40,4 +40,4 @@ var dadosPessoais = {
 function alterarDadosPessoais(nome, sobrenome) {
     dadosPessoais.nome = nome
     dadosPessoais.sobrenome = sobrenome
-}
+};
