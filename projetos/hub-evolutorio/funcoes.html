@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funções Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
+        <section>
+            <article>
+                <h1 class="tituloHeaderCurto"><strong>Funções</strong></h1>
+                <p>O maquinário da matemática</p>
+            </article>
+        </section>
     </header>
     <main>
         <section id="funcaoMatematica">
-                <article>
-                    <h1>Função matemática - Quadrática</h1>
+                <article id="funcaoDoPrimeiroGrau">
+                    <h1>Função matemática - Primeiro grau</h1>
                     <h2>Você já se perguntou como uma função matemática funciona?</h2>
                     <p>Uma função matemática é um tipo de máquina que funciona a partir de três coisas: Valor de entrada, operações e valor de saida.</p>
+                    <p>Uma função do primeiro grau tem a seguinte forma: <strong>f(x)=ax+b</strong>, onde x é a variável, a é o coeficiente angular e b é o termo independente ou constante</p>
+                    <h3>Qual é o valor de entrada?</h3>
+                    <input type="number" id="valorDeEntrada" placeholder="x=">
+                    <h3>Qual é o coeficiente angular?</h3>
+                    <input type="number" id="coeficienteAngular" placeholder="a=">
+                    <h3>Qual é o termo independente?</h3>
+                    <input type="number" id="termoindependente" placeholder="b=">
+                    <button onclick="calcularFuncaoDoPrimeiroGrau()">Calcular resultado</button>
+                    <p id="resultadoDaFuncao"></p>
+                </article>
+                <article id="funcaoQuadratica">
+                    <h1>Função quadrática</h1>
                     <p>Uma função quadrática tem a seguinte forma: <strong>f(x)=ax<sup>2</sup>+bx+c</strong>, onde x é a variável, a é o coeficiente quadrático,  b é o coeficiente linear e c é o termo independente ou constante.</p>
                     <h2>Calcule o valor de uma função (valor de saida)</h2>
-                    <h3>Coloque o valor de entrada</h3>
-                    <input type="number" id="valorDeEntrada" placeholder="x=">
+                    <h3>Qual é o valor de entrada</h3>
+                    <input type="number" id="valorDeEntradaDaFuncaoQuadratica" placeholder="x=">
                     <p id="avisoValorDeEntrada"></p>
                     <h3>Qual é o coeficiente quadrático?</h3>
                     <input type="number" id="coeficienteQuadratico" placeholder="a=">
@@ -27,11 +45,11 @@
                     <input type="number" id="coeficienteLinear" placeholder="b=">
                     <p id="avisoCoeficienteLinear"></p>
                     <h3>Qual é o termo independente?</h3>
-                    <input type="number" id="termoIndependente" placeholder="c=">
+                    <input type="number" id="termoIndependenteDaFuncaoQuadratica" placeholder="c=">
                     <p id="avisoTermoIndependente"></p>
-                    <button onclick="calcularFuncaoQuadratica()">Calcular função</button>
+                    <button onclick="calcularFuncaoQuadratica()">Calcular resultado</button>
                     <div>
-                        <p id="resultadoDaFuncao"></p>
+                        <p id="resultadoDaFuncaoQuadratica"></p>
                     </div>
                 </article>
             </section>

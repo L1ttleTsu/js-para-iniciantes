@@ -29,6 +29,10 @@ header h1 {
     margin-bottom: 0px;
 }
 
+header .tituloHeaderCurto {
+    font-size: 12vw;
+}
+
 header strong {
     color: #F5860F;
 }
