@@ -81,6 +81,7 @@ main h1 {
     background-color: rgba(15, 45, 44, 0.5);
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 #explicacao-introdutoria h1 {
@@ -96,4 +97,48 @@ main h1 {
 #explicacao-introdutoria p {
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#section-promessas {
+    position: relative;
+    background: black url("imagens/oceano-escuro.jpg") center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#promessas {
+    position: absolute;
+    top: 50%;
+    transform: translate(10%, -50%);
+    width: 60vw;
+    max-width: 700px;
+    background-color: rgba(1, 35, 47, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+#promessas > h1 {
+    color: #5A97AD;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+#promessas > h2 {
+    color: #779FAD;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+#promessas > p {
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer > p {
+    margin: 0px;
+}
+footer strong {
+    
 }
