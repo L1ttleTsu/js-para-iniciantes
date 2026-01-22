@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Matemáticas</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section id="funcaoMatematica">
+                <article>
+                    <h1>Função matemática - Quadrática</h1>
+                    <h2>Você já se perguntou como uma função matemática funciona?</h2>
+                    <p>Uma função matemática é um tipo de máquina que funciona a partir de três coisas: Valor de entrada, operações e valor de saida.</p>
+                    <p>Uma função quadrática tem a seguinte forma: <strong>f(x)=ax<sup>2</sup>+bx+c</strong>, onde x é a variável, a é o coeficiente quadrático,  b é o coeficiente linear e c é o termo independente ou constante.</p>
+                    <h2>Calcule o valor de uma função (valor de saida)</h2>
+                    <h3>Coloque o valor de entrada</h3>
+                    <input type="number" id="valorDeEntrada" placeholder="x=">
+                    <p id="avisoValorDeEntrada"></p>
+                    <h3>Qual é o coeficiente quadrático?</h3>
+                    <input type="number" id="coeficienteQuadratico" placeholder="a=">
+                    <p id="avisoCoeficienteQuadratico"></p>
+                    <h3>Qual é o coeficiente linear?</h3>
+                    <input type="number" id="coeficienteLinear" placeholder="b=">
+                    <p id="avisoCoeficienteLinear"></p>
+                    <h3>Qual é o termo independente?</h3>
+                    <input type="number" id="termoIndependente" placeholder="c=">
+                    <p id="avisoTermoIndependente"></p>
+                    <button onclick="calcularFuncaoQuadratica()">Calcular função</button>
+                    <div>
+                        <p id="resultadoDaFuncao"></p>
+                    </div>
+                </article>
+            </section>
+    </main>
+    <footer>
+        <p>Feito por <strong>Tsu</strong></p>
+        <p>Projeto focado em praticar JavaScript</p>
+    </footer>
+    <script src="funcoes_matematicas.js"></script>
+</body>
+</html>
