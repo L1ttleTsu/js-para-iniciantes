@@ -25,3 +25,19 @@ var menu = {
 menu.backgroundColor = '#000';
 
 menu.color = 'blue';
+
+menu.esconder = function() {
+   return "Escondi";
+};
+
+var dadosPessoais = {
+    nome: "Bruno",
+    sobrenome: "Gonçalves Santos",
+    nomecompleto() {
+        return `${this.nome} ${this.sobrenome}`
+    }
+};
+function alterarDadosPessoais(nome, sobrenome) {
+    dadosPessoais.nome = nome
+    dadosPessoais.sobrenome = sobrenome
+}
