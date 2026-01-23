@@ -6,7 +6,7 @@
     <title>Funções Matemáticas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body-funcoes">
     <header>
         <section>
             <article>
@@ -25,38 +25,41 @@
                 <h1>Função matemática - Primeiro grau</h1>
                 <h2>Você já se perguntou como uma função matemática funciona?</h2>
                 <p>Uma função matemática é um tipo de máquina que funciona a partir de três coisas: Valor de entrada, operações e valor de saida.</p>
-                <p>Uma função do primeiro grau tem a seguinte forma: <strong>f(x)=ax+b</strong>, onde x é a variável, a é o coeficiente angular e b é o termo independente ou constante</p>
-                <h3>Qual é o valor de entrada?</h3>
-                <input type="number" id="valorDeEntrada" placeholder="x=">
-                <h3>Qual é o coeficiente angular?</h3>
-                <input type="number" id="coeficienteAngular" placeholder="a=">
-                <h3>Qual é o termo independente?</h3>
-                <input type="number" id="termoindependente" placeholder="b=">
-                <button onclick="calcularFuncaoDoPrimeiroGrau()">Calcular resultado</button>
-                <p id="resultadoDaFuncao"></p>
+                <p>Uma função do primeiro grau tem a seguinte forma: <strong>f(x)=ax+b</strong>, onde x é a variável, a é o coeficiente angular e b é o termo independente ou constante.</p>
+                <div class="container-calculos">
+                    <h1>Calcule o resultado de uma função</h1>
+                    <h2>Qual é o valor de entrada?</h2>
+                    <input type="number" id="valorDeEntrada" placeholder="x=">
+                    <h2>Qual é o coeficiente angular?</h2>
+                    <input type="number" id="coeficienteAngular" placeholder="a=">
+                    <h2>Qual é o termo independente?</h2>
+                    <input type="number" id="termoindependente" placeholder="b=">
+                    <button onclick="calcularFuncaoDoPrimeiroGrau()">Calcular resultado</button>
+                    <p id="resultadoDaFuncao"></p>
+                </div>
             </article>
         </section>
         <section class="section-padrao">
             <article id="funcaoQuadratica" class="article-padrao">
                 <h1>Função quadrática</h1>
                 <p>Uma função quadrática tem a seguinte forma: <strong>f(x)=ax<sup>2</sup>+bx+c</strong>, onde x é a variável, a é o coeficiente quadrático,  b é o coeficiente linear e c é o termo independente ou constante.</p>
-                <h2>Calcule o valor de uma função (valor de saida)</h2>
-                <h3>Qual é o valor de entrada</h3>
-                <input type="number" id="valorDeEntradaDaFuncaoQuadratica" placeholder="x=">
-                <p id="avisoValorDeEntrada"></p>
-                <h3>Qual é o coeficiente quadrático?</h3>
-                <input type="number" id="coeficienteQuadratico" placeholder="a=">
-                <p id="avisoCoeficienteQuadratico"></p>
-                <h3>Qual é o coeficiente linear?</h3>
-                <input type="number" id="coeficienteLinear" placeholder="b=">
-                <p id="avisoCoeficienteLinear"></p>
-                <h3>Qual é o termo independente?</h3>
-                <input type="number" id="termoIndependenteDaFuncaoQuadratica" placeholder="c=">
-                <p id="avisoTermoIndependente"></p>
-                <button onclick="calcularFuncaoQuadratica()">Calcular resultado</button>
-                <div>
+                <section class="container-calculos">
+                    <h1>Calcule o resultado de uma função</h1>
+                    <h2>Qual é o valor de entrada</h2>
+                    <input type="number" id="valorDeEntradaDaFuncaoQuadratica" placeholder="x=">
+                    <p id="avisoValorDeEntrada"></p>
+                    <h2>Qual é o coeficiente quadrático?</h2>
+                    <input type="number" id="coeficienteQuadratico" placeholder="a=">
+                    <p id="avisoCoeficienteQuadratico"></p>
+                    <h2>Qual é o coeficiente linear?</h2>
+                    <input type="number" id="coeficienteLinear" placeholder="b=">
+                    <p id="avisoCoeficienteLinear"></p>
+                    <h2>Qual é o termo independente?</h2>
+                    <input type="number" id="termoIndependenteDaFuncaoQuadratica" placeholder="c=">
+                    <p id="avisoTermoIndependente"></p>
+                    <button onclick="calcularFuncaoQuadratica()">Calcular resultado</button>
                     <p id="resultadoDaFuncaoQuadratica"></p>
-                </div>
+                </section>
             </article>
         </section>
     </main>
